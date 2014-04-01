@@ -1,0 +1,25 @@
+{
+  "name": "heroku-log-session",
+  "version": "0.1.0",
+  "description": "get a stream or server-side-event connection to your heroku logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jclem/heroku-log-session"
+  },
+  "author": "Jonathan Clem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jclem/heroku-log-session/issues"
+  },
+  "homepage": "https://github.com/jclem/heroku-log-session",
+  "dependencies": {
+    "server-event": "~1.0.1",
+    "split": "~0.3.0",
+    "heroku-client": "~1.2.0",
+    "through": "~2.3.4"
+  }
+}

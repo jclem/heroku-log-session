@@ -2,7 +2,6 @@ var heroku      = require('heroku-client');
 var https       = require('https');
 var serverEvent = require('server-event')();
 var split       = require('split');
-var through     = require('through');
 
 module.exports = function(token) {
   var hk = heroku.createClient({ token: token });

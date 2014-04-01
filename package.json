@@ -1,6 +1,6 @@
 {
   "name": "heroku-log-session",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "get a stream or server-side-event connection to your heroku logs",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "dependencies": {
     "server-event": "~1.0.1",
     "split": "~0.3.0",
-    "heroku-client": "~1.2.0",
-    "through": "~2.3.4"
+    "heroku-client": "~1.2.0"
   }
 }
